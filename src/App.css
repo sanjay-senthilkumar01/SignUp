@@ -1,0 +1,297 @@
+.Frame4{
+  width: 1920px;
+   height: 1080px;
+  position: relative;
+  background: radial-gradient(55.56% 55.56% at 81.28% 27.78%, #35FF23 0%, #010A00 100%);
+}
+.BackgroundImage2{
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  position:absolute;
+}
+.SignUpFrame1{
+  width: 974px;
+  height: 929px;
+  left: 812px;
+  top: 75px;
+  position: absolute;
+  background: white;
+  border-top-left-radius:27px;
+  border-top-right-radius:27px;
+  border-bottom-right-radius: 27px;
+  backdrop-filter:blur(32.20px);
+}
+.SignUpFrame2{
+  width: 678px;
+  height: 929px;
+  left: 134px;
+  top: 75px;
+  position:absolute;
+  background:rgba(21, 203, 192, 0.43);
+  border-top-left-radius:27px;
+  border-top-right-radius:27px;
+  border-bottom-left-radius: 27px;
+  backdrop-filter:blur(28.70px);
+}
+.Name{
+  left: 960px;
+  top: 351px;
+  position:absolute;
+  opacity: 0.43;
+  text-align:center;
+  color: black;
+  font-size: 18px;
+  font-family:Cocogoose;
+  font-weight:250;
+  word-wrap:break-word;
+}
+.MailId{
+  left: 960px;
+  top: 438px;
+  position:absolute;
+  opacity: 0.43;
+  text-align:center;
+  color: black;
+   font-size: 18px;
+   font-family:Cocogoose;
+   font-weight: 250;
+   word-wrap: break-word;
+}
+.MailIdText{
+  width: 634px;
+  height: 4px;
+  left: 960px;
+  top: 473px;
+  position:absolute;
+  background: #D9D9D9; 
+}
+.NameText{
+  width: 634px;
+  height: 4px;
+  left: 960px;
+  top: 386px;
+  position:absolute;
+  background: #D9D9D9;
+}
+.Username{
+  left: 960px;
+  top: 522px;
+  position:absolute;
+  opacity: 0.43;
+  text-align:center;
+  color:black;
+  font-size: 18;
+  font-family:Cocogoose;
+  font-weight: 250;
+  word-wrap: break-word;
+}
+.UsernameText{
+  width: 634px;
+  height: 4px;
+  left: 960px;
+  top: 560px;
+  position:absolute;
+  background: #D9D9D9;
+}
+.Password{
+  left: 960px;
+  top: 610px;
+  position: absolute;
+  opacity: 0.43;
+  text-align: center;
+  color: black;
+   font-size: 18px;
+   font-family: Cocogoose;
+   font-weight: 250;
+   word-wrap: break-word;
+}
+.PasswordText{
+  width: 634px;
+  height: 4px;
+  left: 960px;
+  top: 647px;
+  position: absolute;
+  background: #D9D9D9;
+}
+.ConfirmPassword{
+  left: 960px;
+  top: 695px;
+  position:absolute;
+  opacity: 0.43;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-family: Cocogoose;
+  font-weight: 250;
+  word-wrap: break-word;
+}
+.ConfirmPasswordText{
+  width: 634px;
+  height: 4px;
+  left: 960px;
+  top: 733px;
+  position: absolute;
+  background: #D9D9D9;
+}
+.AgreeTerms{
+  left: 988px;
+  top: 764px;
+  position: absolute;
+  opacity: 0.43;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-family: Cocogoose;
+  font-weight: 250;
+  word-wrap: break-word;
+}
+.TickBox{
+  width: 22px;
+  height: 22px;
+  left: 956px;
+  top: 763px;
+  position: absolute;
+  opacity: 0.43;
+  background: #D9D9D9;
+   border-radius: 3px;
+   border:1px black solid;
+}
+.SignUpBut{
+  width: 174px;
+  height: 52px;
+  left: 960px;
+  top: 863px;
+  position: absolute;
+  background: #15CBC0;
+  box-shadow: 6px 6px 12.199999809265137px rgba(0, 0, 0, 0.25);
+  border-radius: 13px; 
+}
+.Inverse{
+  left: 168px;
+  top: 910px;
+  position: absolute;
+  text-align: center;
+}
+.SpanInverse{
+  color: white;
+  font-size: 34px;
+  font-family: "Cocogoose";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.SpanDot1{
+  color: #15CBC0;
+  font-size: 90px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.SpanDot2{
+  color: #15CBC0;
+  font-size: 34px;
+  font-family: Cocogoose;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.SignUp{
+  left: 245px;
+  top: 267px;
+  position: absolute;
+  text-align: center;
+}
+.SpanSignUp{
+  color: white;
+  font-size: 90px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.Logo{
+  width: 130px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  backdrop-filter: blur(0px);
+}
+.Hello{
+  left: 960px;
+  top: 172px;
+  position: absolute;
+  text-align: center;
+}
+.SpanHello{
+  color: black;
+  font-size: 64px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.SpanEx{
+  color: #15CBC0;
+  font-size: 64px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.Back{
+  left: 159px;
+  top: 104px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Cocogoose;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.SignUpButton{
+  width: 145px;
+  height: 29px;
+  left: 974px;
+  top: 871px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  font-family: Century Gothic;
+  font-weight: 600px;
+  word-wrap: break-word;
+}
+.LogInButton{
+  width: 182px;
+  height: 39px;
+  left: 1186px;
+  top: 871px;
+  position: absolute;
+  text-align: center;
+  color: #15CBC0;
+  font-size: 26px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.Or{
+  left: 1173px;
+  top: 870px;
+  position: absolute;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.34);
+  font-size: 27px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.InverseQuote{
+  width: 376px;
+  left: 245px;
+  top: 477px;
+  position: absolute;
+  color: white;
+  font-size: 19px;
+  font-family: COCOGOOSE;
+  font-weight: 250;
+  word-wrap: break-word;
+}

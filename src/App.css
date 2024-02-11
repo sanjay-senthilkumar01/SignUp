@@ -35,109 +35,81 @@
   border-bottom-left-radius: 27px;
   backdrop-filter:blur(28.70px);
 }
-.Name{
-  left: 960px;
-  top: 351px;
+.MailIdText{
+  width: 634px; 
+  height: 39px; 
+  left: 960px; 
+  top: 439px;
   position:absolute;
   opacity: 0.43;
-  text-align:center;
+  color: black;
+  font-size: 18px;
+  font-family:Cocogoose;
+  font-weight: 250;
+  word-wrap: break-word;
+}
+input{
+  border:none;
+  outline:none;
+  background:transparent;
+  color:#D9D9D9;
+  border-bottom:2px solid;
+}
+.NameText{
+  width: 634px; 
+  height: 39px; 
+  left: 960px; 
+  top: 351px; 
+  position: absolute;
+  opacity: 0.43;
   color: black;
   font-size: 18px;
   font-family:Cocogoose;
   font-weight:250;
   word-wrap:break-word;
 }
-.MailId{
-  left: 960px;
-  top: 438px;
-  position:absolute;
-  opacity: 0.43;
-  text-align:center;
-  color: black;
-   font-size: 18px;
-   font-family:Cocogoose;
-   font-weight: 250;
-   word-wrap: break-word;
-}
-.MailIdText{
+.UsernameText{
   width: 634px;
-  height: 4px;
-  left: 960px;
-  top: 473px;
-  position:absolute;
-  background: #D9D9D9; 
-}
-.NameText{
-  width: 634px;
-  height: 4px;
-  left: 960px;
-  top: 386px;
-  position:absolute;
-  background: #D9D9D9;
-}
-.Username{
+  height: 39px;
   left: 960px;
   top: 522px;
   position:absolute;
   opacity: 0.43;
-  text-align:center;
   color:black;
-  font-size: 18;
+  font-size: 18px;
   font-family:Cocogoose;
   font-weight: 250;
   word-wrap: break-word;
 }
-.UsernameText{
+.PasswordText{
   width: 634px;
-  height: 4px;
-  left: 960px;
-  top: 560px;
-  position:absolute;
-  background: #D9D9D9;
-}
-.Password{
+  height: 39px;
   left: 960px;
   top: 610px;
   position: absolute;
   opacity: 0.43;
-  text-align: center;
   color: black;
    font-size: 18px;
    font-family: Cocogoose;
    font-weight: 250;
    word-wrap: break-word;
 }
-.PasswordText{
+.ConfirmPasswordText{
   width: 634px;
-  height: 4px;
-  left: 960px;
-  top: 647px;
-  position: absolute;
-  background: #D9D9D9;
-}
-.ConfirmPassword{
+  height: 39px;
   left: 960px;
   top: 695px;
-  position:absolute;
+  position: absolute;
   opacity: 0.43;
-  text-align: center;
   color: black;
   font-size: 18px;
   font-family: Cocogoose;
   font-weight: 250;
   word-wrap: break-word;
 }
-.ConfirmPasswordText{
-  width: 634px;
-  height: 4px;
-  left: 960px;
-  top: 733px;
-  position: absolute;
-  background: #D9D9D9;
-}
 .AgreeTerms{
   left: 988px;
-  top: 764px;
+  top: 767px;
   position: absolute;
   opacity: 0.43;
   text-align: center;
@@ -157,16 +129,6 @@
   background: #D9D9D9;
    border-radius: 3px;
    border:1px black solid;
-}
-.SignUpBut{
-  width: 174px;
-  height: 52px;
-  left: 960px;
-  top: 863px;
-  position: absolute;
-  background: #15CBC0;
-  box-shadow: 6px 6px 12.199999809265137px rgba(0, 0, 0, 0.25);
-  border-radius: 13px; 
 }
 .Inverse{
   left: 168px;
@@ -246,12 +208,13 @@
   font-family: Cocogoose;
   font-weight: 400;
   word-wrap: break-word;
+  text-decoration: none;
 }
 .SignUpButton{
-  width: 145px;
-  height: 29px;
+  width: 174px;
+  height: 52px;
   left: 974px;
-  top: 871px;
+  top: 863px;
   position: absolute;
   text-align: center;
   color: white;
@@ -259,6 +222,12 @@
   font-family: Century Gothic;
   font-weight: 600px;
   word-wrap: break-word;
+  background: #15CBC0;
+  box-shadow: 6px 6px 12.199999809265137px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
 }
 .LogInButton{
   width: 182px;
@@ -272,6 +241,7 @@
   font-family: Century Gothic;
   font-weight: 600;
   word-wrap: break-word;
+  text-decoration: none;
 }
 .Or{
   left: 1173px;

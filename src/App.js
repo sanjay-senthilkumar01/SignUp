@@ -15,27 +15,21 @@ function App() {
     <span className="SpanDot1" >.</span>
     </div>
   <div className="InverseQuote">inverse is much better when<br/>you have an account.</div>
-  <div className="Name">NAME</div>
-  <div className="NameText"/>
-  <div className="MailId">MAIL ID</div>
-  <div className="MailIdText"/>
-  <div className="Username" >USERNAME</div>
-  <div className="UsernameText"/>
-  <div className="Password">PASSWORD</div>
-  <div className="PasswordText"/>
-  <div className="ConfirmPassword">CONFIRM PASSWORD</div>
-  <div className="ConfirmPasswordText"/>
+  <input className="NameText" type="text" id="name" name="name" required=""placeholder="NAME"/>
+  <input className="MailIdText" type="text" id="mailid" name="mailid" required=""placeholder="MAIL ID"/>
+  <input className="UsernameText" type="text" id="username" name="username" required=""placeholder="USERNAME"/>
+  <input className="PasswordText" type="password" id="password" name="password" required=""placeholder="PASSWORD"/>
+  <input className="ConfirmPasswordText" type="password" id="confirmpassword" name="confirmpassword" required=""placeholder="CONFIRM PASSWORD"/>
   <div className="AgreeTerms">By Signing in I agree with terms and conditions</div>
-  <div className="TickBox"/>
-  <div className="SignUpBut"/>
-  <div className="SignUpButton">sign up</div>
-  <div className="LogInButton">log in</div>
+  <input type="checkbox" className="TickBox" id="termsandconditions" name="termsandconditions" required=""value="Agree"/>
+  <button type="submit" className="SignUpButton"><b>sign up</b></button>
+  <a href="#LoginPage" className="LogInButton">log in</a>
   <div className="Or">or</div>
   <div className="Hello">
     <span className="SpanHello">Hello</span>
     <span className="SpanEx">!</span>
     </div>
-  <div className="Back">back</div>
+  <a href="#BackPage" className="Back">back</a>
 </div>
   );
 }

@@ -22,7 +22,7 @@ function App() {
   <input className="ConfirmPasswordText" type="password" id="confirmpassword" name="confirmpassword" required=""placeholder="CONFIRM PASSWORD"/>
   <div className="AgreeTerms">By Signing in I agree with terms and conditions</div>
   <input type="checkbox" className="TickBox" id="termsandconditions" name="termsandconditions" required=""value="Agree"/>
-  <button type="submit" className="SignUpButton"><b>sign up</b></button>
+  <button className="SignUpButton"><b>sign up</b></button>
   <a href="#LoginPage" className="LogInButton">log in</a>
   <div className="Or">or</div>
   <div className="Hello">

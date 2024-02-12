@@ -42,7 +42,6 @@
   top: 439px;
   position:absolute;
   opacity: 0.43;
-  color: black;
   font-size: 18px;
   font-family:Cocogoose;
   font-weight: 250;
@@ -62,7 +61,6 @@ input{
   top: 351px; 
   position: absolute;
   opacity: 0.43;
-  color: black;
   font-size: 18px;
   font-family:Cocogoose;
   font-weight:250;
@@ -75,7 +73,6 @@ input{
   top: 522px;
   position:absolute;
   opacity: 0.43;
-  color:black;
   font-size: 18px;
   font-family:Cocogoose;
   font-weight: 250;
@@ -88,7 +85,6 @@ input{
   top: 610px;
   position: absolute;
   opacity: 0.43;
-  color: black;
    font-size: 18px;
    font-family: Cocogoose;
    font-weight: 250;
@@ -101,7 +97,6 @@ input{
   top: 695px;
   position: absolute;
   opacity: 0.43;
-  color: black;
   font-size: 18px;
   font-family: Cocogoose;
   font-weight: 250;
@@ -129,6 +124,7 @@ input{
   background: #D9D9D9;
    border-radius: 3px;
    border:1px black solid;
+   cursor: pointer;
 }
 .Inverse{
   left: 168px;
@@ -224,10 +220,9 @@ input{
   word-wrap: break-word;
   background: #15CBC0;
   box-shadow: 6px 6px 12.199999809265137px rgba(0, 0, 0, 0.25);
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-  border-bottom-left-radius: 17px;
-  border-bottom-right-radius: 17px;
+  border-radius: 17px;
+  border: none;
+  cursor: pointer;
 }
 .LogInButton{
   width: 182px;
